@@ -1,9 +1,99 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13">
   <diagram name="Page-1" id="Txp-0Lr8JUsDCNOGNZ-w">
-    <mxGraphModel>
+    <mxGraphModel dx="1834" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-1" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-3" value="&#xa;&lt;strong&gt;Validate Data&lt;/strong&gt;.&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-4" value="&#xa;&lt;strong&gt;Store Rating/Comment&lt;/strong&gt;.&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="440" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-5" value="&#xa;&lt;strong&gt;Display Ratings/Comments&lt;/strong&gt;.&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="680" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-6" value="Recipe Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="440" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="VWsPlTXBU3nDEcO_DvbG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-120" y="320" as="sourcePoint" />
+            <mxPoint x="220" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-8" value="Rating/Comment Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-30;" vertex="1" connectable="0" parent="VWsPlTXBU3nDEcO_DvbG-7">
+          <mxGeometry x="-0.0205" y="-7" relative="1" as="geometry">
+            <mxPoint x="-40" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VWsPlTXBU3nDEcO_DvbG-2" target="VWsPlTXBU3nDEcO_DvbG-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="80" as="sourcePoint" />
+            <mxPoint x="370" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="VWsPlTXBU3nDEcO_DvbG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="280" as="sourcePoint" />
+            <mxPoint x="320" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-12" value="&lt;strong&gt;Validated Rating/Comment&lt;/strong&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VWsPlTXBU3nDEcO_DvbG-11">
+          <mxGeometry x="-0.0175" y="5" relative="1" as="geometry">
+            <mxPoint x="85" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VWsPlTXBU3nDEcO_DvbG-4" target="VWsPlTXBU3nDEcO_DvbG-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="450" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-14" value="&lt;strong&gt;Stored Rating/Comment&lt;/strong&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VWsPlTXBU3nDEcO_DvbG-13">
+          <mxGeometry x="0.0042" y="3" relative="1" as="geometry">
+            <mxPoint y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VWsPlTXBU3nDEcO_DvbG-6" target="VWsPlTXBU3nDEcO_DvbG-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="480" as="sourcePoint" />
+            <mxPoint x="810" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-16" value="&lt;strong&gt;Retrieve and Display Ratings/Comments&lt;/strong&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-22;" vertex="1" connectable="0" parent="VWsPlTXBU3nDEcO_DvbG-15">
+          <mxGeometry x="-0.0183" y="2" relative="1" as="geometry">
+            <mxPoint x="26" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VWsPlTXBU3nDEcO_DvbG-5" target="VWsPlTXBU3nDEcO_DvbG-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="600" as="sourcePoint" />
+            <mxPoint x="290" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-18" value="&lt;strong&gt;Displayed Ratings/Comments&lt;/strong&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=30;" vertex="1" connectable="0" parent="VWsPlTXBU3nDEcO_DvbG-17">
+          <mxGeometry x="0.0689" y="3" relative="1" as="geometry">
+            <mxPoint x="-6" y="34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="VWsPlTXBU3nDEcO_DvbG-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="80" as="sourcePoint" />
+            <mxPoint x="320" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-20" value="&lt;strong&gt;Rating/Comment Input&lt;/strong&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VWsPlTXBU3nDEcO_DvbG-19">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint x="62" y="90" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWsPlTXBU3nDEcO_DvbG-2" value="&#xa;&lt;strong&gt;Submit Rating/Comment&lt;/strong&gt;.&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" width="160" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
