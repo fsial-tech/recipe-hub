@@ -1,9 +1,93 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13">
-  <diagram name="Page-1" id="7JDmFCnPMQo_Gptr-Rfj">
-    <mxGraphModel>
+  <diagram name="Page-1" id="nzo5W8rPSrmxbzvPa-v-">
+    <mxGraphModel dx="1834" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wzWnDP5bt--BVEywMOYe-6" value="Store in Recipe Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wzWnDP5bt--BVEywMOYe-23" target="wzWnDP5bt--BVEywMOYe-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="443" as="sourcePoint" />
+            <mxPoint x="380" y="393" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-14" value="&lt;strong&gt;Stored Recipe Data&lt;/strong&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wzWnDP5bt--BVEywMOYe-13">
+          <mxGeometry x="-0.213" y="1" relative="1" as="geometry">
+            <mxPoint x="65" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="wzWnDP5bt--BVEywMOYe-6" target="wzWnDP5bt--BVEywMOYe-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="640" as="sourcePoint" />
+            <mxPoint x="-83" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-16" value="&lt;strong&gt;Confirmation Email/Message&lt;/strong&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=40;" vertex="1" connectable="0" parent="wzWnDP5bt--BVEywMOYe-15">
+          <mxGeometry x="-0.0458" y="2" relative="1" as="geometry">
+            <mxPoint x="-46" y="22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-18" value="User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-19" value="Submit Recipe" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-20" value="Validate Recipe" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-21" value="Recipe Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-23" value="Store in Recipe Database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="320" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wzWnDP5bt--BVEywMOYe-18" target="wzWnDP5bt--BVEywMOYe-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-83" y="340" as="sourcePoint" />
+            <mxPoint x="271" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-25" value="Recipe Details" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-34;" vertex="1" connectable="0" parent="wzWnDP5bt--BVEywMOYe-24">
+          <mxGeometry x="0.0167" y="-4" relative="1" as="geometry">
+            <mxPoint x="-39" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="wzWnDP5bt--BVEywMOYe-20" source="wzWnDP5bt--BVEywMOYe-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="327" y="100" as="sourcePoint" />
+            <mxPoint x="377" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-27" value="Recipe Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wzWnDP5bt--BVEywMOYe-26">
+          <mxGeometry x="-0.1262" y="1" relative="1" as="geometry">
+            <mxPoint x="42" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wzWnDP5bt--BVEywMOYe-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="329" y="263" as="sourcePoint" />
+            <mxPoint x="280" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-29" value="&lt;strong&gt;Validated Recipe&lt;/strong&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wzWnDP5bt--BVEywMOYe-28">
+          <mxGeometry x="0.0833" relative="1" as="geometry">
+            <mxPoint x="53" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="wzWnDP5bt--BVEywMOYe-21" source="wzWnDP5bt--BVEywMOYe-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="383" y="416" as="sourcePoint" />
+            <mxPoint x="433" y="366" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzWnDP5bt--BVEywMOYe-36" value="Stored Recipe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wzWnDP5bt--BVEywMOYe-34">
+          <mxGeometry x="0.025" y="5" relative="1" as="geometry">
+            <mxPoint y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
