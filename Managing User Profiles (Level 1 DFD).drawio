@@ -1,9 +1,93 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13">
   <diagram name="Page-1" id="61SceLOAxZrbRVq5O3MZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1834" dy="1138" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-1" value="user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-2" value="Submit Profile Updates" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-3" value="&lt;strong&gt;Validate Data&lt;/strong&gt;." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-4" value="&lt;strong&gt;Store in User Database&lt;/strong&gt;." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="360" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-5" value="&lt;strong&gt;Send Confirmation&lt;/strong&gt;." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="560" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-6" value="&#xa;&lt;strong&gt;User Database&lt;/strong&gt;.&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="bWdKwN4ibXxwJW2omvnT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-120" y="240" as="sourcePoint" />
+            <mxPoint x="-70" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-8" value="Profile Update&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-50;" vertex="1" connectable="0" parent="bWdKwN4ibXxwJW2omvnT-7">
+          <mxGeometry x="-0.065" y="2" relative="1" as="geometry">
+            <mxPoint x="-32" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="bWdKwN4ibXxwJW2omvnT-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="40" as="sourcePoint" />
+            <mxPoint x="210" y="-10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-10" value="&lt;strong&gt;Profile Update Data&lt;/strong&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bWdKwN4ibXxwJW2omvnT-9">
+          <mxGeometry x="-0.0167" y="2" relative="1" as="geometry">
+            <mxPoint x="48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="bWdKwN4ibXxwJW2omvnT-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="240" as="sourcePoint" />
+            <mxPoint x="210" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-12" value="&lt;strong&gt;Validated Profile Info&lt;/strong&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bWdKwN4ibXxwJW2omvnT-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="bWdKwN4ibXxwJW2omvnT-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="440" as="sourcePoint" />
+            <mxPoint x="210" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-16" value="&lt;strong&gt;Updated Profile Data&lt;/strong&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bWdKwN4ibXxwJW2omvnT-13">
+          <mxGeometry x="-0.0167" y="-1" relative="1" as="geometry">
+            <mxPoint x="61" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="bWdKwN4ibXxwJW2omvnT-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="400" as="sourcePoint" />
+            <mxPoint x="290" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-15" value="&lt;strong&gt;Stored Profile Data&lt;/strong&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bWdKwN4ibXxwJW2omvnT-14">
+          <mxGeometry x="-0.0143" y="4" relative="1" as="geometry">
+            <mxPoint y="-16" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="bWdKwN4ibXxwJW2omvnT-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="560" as="sourcePoint" />
+            <mxPoint x="130" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bWdKwN4ibXxwJW2omvnT-18" value="Confirmation of Successful Update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=45;" vertex="1" connectable="0" parent="bWdKwN4ibXxwJW2omvnT-17">
+          <mxGeometry x="-0.0344" y="-3" relative="1" as="geometry">
+            <mxPoint x="-26" y="18" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
