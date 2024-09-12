@@ -1,9 +1,107 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13">
   <diagram name="Page-1" id="qQY_Ny1w5tV8oeNE61w5">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-1" value="&#xa;Users&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-280" y="280" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-2" value="&#xa;&lt;strong&gt;Social Media&lt;/strong&gt; &#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="440" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-3" value="&#xa;&lt;strong&gt;Submit Recipe Sharing Request&lt;/strong&gt;.&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-4" value="&#xa;&lt;strong&gt;Validate Recipe Link&lt;/strong&gt;.&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-5" value="&#xa;&lt;strong&gt;Send Recipe to Social Media&lt;/strong&gt;.&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="440" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-6" value="&#xa; &lt;strong&gt;Display Confirmation&lt;/strong&gt;.&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-7" value="&#xa;&lt;strong&gt;Recipe Database&lt;/strong&gt;.&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="d5zjouWTmvhGv5Ckx7gx-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-120" y="280" as="sourcePoint" />
+            <mxPoint x="-70" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-9" value="&lt;strong&gt;Share Request&lt;/strong&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-37;" vertex="1" connectable="0" parent="d5zjouWTmvhGv5Ckx7gx-8">
+          <mxGeometry x="-0.3146" y="-2" relative="1" as="geometry">
+            <mxPoint y="-37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="d5zjouWTmvhGv5Ckx7gx-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="120" as="sourcePoint" />
+            <mxPoint x="210" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-13" value="Recipe Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d5zjouWTmvhGv5Ckx7gx-10">
+          <mxGeometry x="-0.0667" y="-1" relative="1" as="geometry">
+            <mxPoint x="31" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="d5zjouWTmvhGv5Ckx7gx-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="320" as="sourcePoint" />
+            <mxPoint x="210" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-16" value="&lt;strong&gt;Valid Recipe Link&lt;/strong&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d5zjouWTmvhGv5Ckx7gx-11">
+          <mxGeometry x="0.0167" y="5" relative="1" as="geometry">
+            <mxPoint x="45" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="d5zjouWTmvhGv5Ckx7gx-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="520" as="sourcePoint" />
+            <mxPoint x="210" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-20" value="&lt;strong&gt;Share Status&lt;/strong&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d5zjouWTmvhGv5Ckx7gx-12">
+          <mxGeometry x="-0.0167" y="5" relative="1" as="geometry">
+            <mxPoint x="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="d5zjouWTmvhGv5Ckx7gx-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="280" as="sourcePoint" />
+            <mxPoint x="290" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-15" value="&lt;strong&gt;Retrieve Recipe&lt;/strong&gt;." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d5zjouWTmvhGv5Ckx7gx-14">
+          <mxGeometry x="-0.01" y="2" relative="1" as="geometry">
+            <mxPoint y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="d5zjouWTmvhGv5Ckx7gx-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="480" as="sourcePoint" />
+            <mxPoint x="290" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-18" value="Recipe Link" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="d5zjouWTmvhGv5Ckx7gx-17">
+          <mxGeometry x="-0.13" y="1" relative="1" as="geometry">
+            <mxPoint x="3" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="d5zjouWTmvhGv5Ckx7gx-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="640" as="sourcePoint" />
+            <mxPoint x="130" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d5zjouWTmvhGv5Ckx7gx-22" value="&lt;strong&gt;Share Confirmation&lt;/strong&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=50;" vertex="1" connectable="0" parent="d5zjouWTmvhGv5Ckx7gx-21">
+          <mxGeometry x="-0.0432" y="2" relative="1" as="geometry">
+            <mxPoint x="-22" y="33" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
